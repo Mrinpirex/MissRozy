@@ -550,7 +550,7 @@ async def Lazy_start():
                 
                 fileName = {quote_plus(get_name(lazy_file))}
                 lazy_stream = f"{URL}watch/{str(lazy_file.id)}/{quote_plus(get_name(lazy_file))}?hash={get_hash(lazy_file)}"
-                lazy_download = f"{URL}/{get_hash(lazy_file)}"
+                lazy_download = f"{URL}{get_hash(lazy_file)}{str(lazy_file.id)}"
 
                 xo = await cmd.message.reply_text(f'🔐')
                 await asyncio.sleep(1)
