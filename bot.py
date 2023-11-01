@@ -417,8 +417,8 @@ async def Lazy_start():
                             InlineKeyboardButton("Bots Channel", url="https://t.me/LazyDeveloper")
                         ],
                         [
-                            InlineKeyboardButton("🤖Aß", callback_data="aboutbot"),
-                            InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
+                            InlineKeyboardButton("About Bot", callback_data="aboutbot"),
+                            InlineKeyboardButton("About Dev", callback_data="aboutdevs")
                         ],
                         [
                             InlineKeyboardButton("Watch Tutorial", url="https://youtu.be/Rtjyz3lEZwE")
@@ -438,7 +438,7 @@ async def Lazy_start():
                         ],
                         [
                             InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                            InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
+                            InlineKeyboardButton("About Dev", callback_data="aboutdevs")
                         ],
                         [
                             InlineKeyboardButton("Watch Tutorial", url="https://youtu.be/Rtjyz3lEZwE")
@@ -469,10 +469,10 @@ async def Lazy_start():
                         reply_markup=InlineKeyboardMarkup(
                             [
                                 [
-                                    InlineKeyboardButton("▌│ 𝙅𝙤𝙞𝙣 𝙐𝙥𝙙𝙖𝙩𝙚𝙨 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 ║║", url=invite_link.invite_link)
+                                    InlineKeyboardButton("Join Update Channel", url=invite_link.invite_link)
                                 ],
                                 [
-                                    InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshmeh")
+                                    InlineKeyboardButton("Refresh", callback_data="refreshmeh")
                                 ]
                             ]
                         )
@@ -496,7 +496,7 @@ async def Lazy_start():
                         ],
                         [
                             InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                            InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
+                            InlineKeyboardButton("About Dev", callback_data="aboutdevs")
                         ],
                         [
                             InlineKeyboardButton("Watch Tutorial", url="https://youtu.be/Rtjyz3lEZwE")
@@ -516,7 +516,7 @@ async def Lazy_start():
                         ],
                         [
                             InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                            InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
+                            InlineKeyboardButton("About Dev", callback_data="aboutdevs")
                         ],
                         [
                             InlineKeyboardButton("Watch Tutorial", url="https://youtu.be/Rtjyz3lEZwE")
